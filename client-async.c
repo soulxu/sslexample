@@ -16,13 +16,14 @@
 #define SERVER_ADDR "127.0.0.1"
 #define BUF_SIZE 1024
 
+/*
 int verify_callback(X509_STORE_CTX *ctx,void *args) {
     printf("the verify callback is invoked, and pause job\n");
     ASYNC_pause_job();
     printf("resume_job\n");
     return 1;
 }
-
+*/
 
 int main(int argc, char **argv) {
     int err = 0;
