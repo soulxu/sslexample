@@ -1,0 +1,16 @@
+{
+  "CN": "sslclient",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C": "US",
+      "L": "Portland",
+      "O": "sslclient",
+      "OU": "ssl",
+      "ST": "Oregon"
+    }
+  ]
+}
